@@ -37,4 +37,4 @@ while imposto > 0:
 def salario_descontado_imposto(salario, imposto=27.):
     return salario - (salario * (imposto * 0.01))
 
-print(salario_descontado_imposto(4000,imposto=7.))
+print(salario_descontado_imposto(3000,imposto=7.))
