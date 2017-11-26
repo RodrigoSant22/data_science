@@ -9,7 +9,7 @@ new_user(**aluno_1)
 new_user(*aluno_2)
 
 
-# unpacking
+# unpacking2
 def new_user_loop(*args):
     for i in range(len(args)):
         for j in range(len(args[i])):
